@@ -2,24 +2,24 @@
 
 ## Calculate effects of mutations on stability with MutateX
 
-- go to working directory
-`cd /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/mutatex_ensemble`
+### Go to working directory
+- `cd /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/mutatex_ensemble`
 
-- create input file directories\
-  `mkdir wildtype_models`\
-  `mkdir C124F_models`\
-  `mkdir F347Y_models`
-  `mkdir Q171E_models`
-  `mkdir R130G_models`
+### Create input file directories
+- `mkdir wildtype_models`
+- `mkdir C124F_models`
+- `mkdir F347Y_models`
+- `mkdir Q171E_models`
+- `mkdir R130G_models`
 
-- get models from cabsflex
-`cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/wildtype/output_pdbs/output_pdbs/model_*.pdb ./wildtype_models`
-`cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/C124F/output_pdbs/output_pdbs/model_*.pdb ./C124F_models`
-`cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/F347Y/output_pdbs/output_pdbs/model_*.pdb ./F347Y_models`
-`cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/Q171E/output_pdbs/output_pdbs/model_*.pdb ./Q171E_models`
+### Get models from cabsflex
+- `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/wildtype/output_pdbs/output_pdbs/model_*.pdb ./wildtype_models`
+- `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/C124F/output_pdbs/output_pdbs/model_*.pdb ./C124F_models`
+- `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/F347Y/output_pdbs/output_pdbs/model_*.pdb ./F347Y_models`
+- `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/Q171E/output_pdbs/output_pdbs/model_*.pdb ./Q171E_models`
 `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/R130G/output_pdbs/output_pdbs/model_*.pdb ./R130G_models`
 
-- get template files for mMtateX
+### Get template files for mMtateX
 `cp /home/projects/22117_proteins_2025/lecture4/mutatex_templates/mutatex/templates/foldxsuite5/mutation_list.txt .`
 `cp /home/projects/22117_proteins_2025/lecture4/mutatex_templates/mutatex/templates/foldxsuite5/repair_runfile_template.txt .`
 `cp /home/projects/22117_proteins_2025/lecture4/mutatex_templates/mutatex/templates/foldxsuite5/mutate_runfile_template.txt .`
