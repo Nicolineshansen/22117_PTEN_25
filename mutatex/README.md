@@ -1,6 +1,4 @@
-readme mutatex
-
-## MutateX AF structure
+# MutateX AF structure
 
 ### Get AlphaFold structure
 - `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/structures/AF_truncated.pdb .`
@@ -30,7 +28,7 @@ readme mutatex
 - `conda deactivate`
 - `conda activate /home/ctools/protein_structure_course/`
 
-### Run MutateX - 
+### Run MutateX - use nohub to run in the background
 - `nohup mutatex AF_truncated.pdb -p 3 -x /home/ctools/foldx/foldx -m mutation_list.txt -q poslist.txt -f suite5 -R repair_runfile_template.txt -M mutate_runfile_template.txt -c -L -l -v  &`
 
 ### (Optional) check status of MutateX calculations
