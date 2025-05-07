@@ -24,9 +24,6 @@
 - `cp /home/projects/22117_proteins_2025/lecture4/mutatex_templates/mutatex/templates/foldxsuite5/repair_runfile_template.txt .`
 - `cp /home/projects/22117_proteins_2025/lecture4/mutatex_templates/mutatex/templates/foldxsuite5/mutate_runfile_template.txt .`
 
-#### Create poslist file
-`nano poslist.txt`
-
 
 ### Activcate environment ###
 - `conda deactivate`
