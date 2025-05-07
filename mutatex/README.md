@@ -33,3 +33,6 @@ readme mutatex
 ### Run MutateX - 
 - `nohup mutatex AF_truncated.pdb -p 3 -x /home/ctools/foldx/foldx -m mutation_list.txt -q poslist.txt -f suite5 -R repair_runfile_template.txt -M mutate_runfile_template.txt -c -L -l -v  &`
 
+### (Optional) check status of MutateX calculations
+- `tail -f nohup.out`
+
