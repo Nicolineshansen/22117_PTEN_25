@@ -5,9 +5,9 @@
 - go to working directory
 `cd /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/mutatex_ensemble`
 
-- create input file directories
-  `mkdir wildtype_models`
-  `mkdir C124F_models`
+- create input file directories\
+  `mkdir wildtype_models`\
+  `mkdir C124F_models`\
   `mkdir F347Y_models`
   `mkdir Q171E_models`
   `mkdir R130G_models`
