@@ -24,5 +24,12 @@ readme mutatex
     TA78\
     FA278\
     RA173\
-    VA255\
+    VA255
+
+### Activate environment
+- `conda deactivate`
+- `conda activate /home/ctools/protein_structure_course/`
+
+### Run MutateX - 
+- `nohup mutatex AF_truncated.pdb -p 3 -x /home/ctools/foldx/foldx -m mutation_list.txt -q poslist.txt -f suite5 -R repair_runfile_template.txt -M mutate_runfile_template.txt -c -L -l -v  &`
 
