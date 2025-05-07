@@ -11,8 +11,8 @@ readme mutatex
 - `cp /home/projects/22117_proteins_2025/lecture4/mutatex_templates/mutatex/templates/foldxsuite5/mutate_runfile_template.txt .`
 
 ### Create poslist file
-- `nano poslist.txt`
-poslist file should contain:
+- `nano poslist.txt`\
+** poslist file should contain: **
 RA130\
 QA214\
 CA124\
