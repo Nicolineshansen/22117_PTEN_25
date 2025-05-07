@@ -29,19 +29,31 @@
 - `conda deactivate`
 - `conda activate /home/ctools/protein_structure_course/`
 
+### Create output directories
+- `mkdir wildtype`
+- `mkdir C124F`
+- `mkdir F347Y`
+- `mkdir Q171E`
+- `mkdir R130G`
+
 ### Run MutateX  - use nohub to run in the background
 Run without a poslist, as we want to scan the entire protein
 
 - wildtype
-  - `nohup mutatex wildtype_models/model_*.pdb -p 3 -x /home/ctools/foldx/foldx -m mutation_list.txt -f suite5 -R repair_runfile_template.txt -M mutate_runfile_template.txt -c -L -l -v  &`
+  - `cd wildtype`
+  - `nohup mutatex ../wildtype_models/model_*.pdb -p 3 -x /home/ctools/foldx/foldx -m ../mutation_list.txt -f suite5 -R ../repair_runfile_template.txt -M ../mutate_runfile_template.txt -c -L -l -v  &`
 - C124F mutation
-  - `nohup mutatex C124F_models/model_*.pdb -p 3 -x /home/ctools/foldx/foldx -m mutation_list.txt -f suite5 -R repair_runfile_template.txt -M mutate_runfile_template.txt -c -L -l -v  &`
+  - `cd C124F`
+  - `nohup mutatex ../C124F_models/model_*.pdb -p 3 -x /home/ctools/foldx/foldx -m ../mutation_list.txt -f suite5 -R ../repair_runfile_template.txt -M ../mutate_runfile_template.txt -c -L -l -v  &`
 - F347Y mutation
-  - `nohup mutatex F347Y_models/model_*.pdb -p 3 -x /home/ctools/foldx/foldx -m mutation_list.txt -f suite5 -R repair_runfile_template.txt -M mutate_runfile_template.txt -c -L -l -v  &`
+  - `cd F347Y`
+  - `nohup mutatex ../F347Y_models/model_*.pdb -p 3 -x /home/ctools/foldx/foldx -m ../mutation_list.txt -f suite5 -R ../repair_runfile_template.txt -M ../mutate_runfile_template.txt -c -L -l -v  &`
 - Q171E mutation
-  - `nohup mutatex Q171E_models/model_*.pdb -p 3 -x /home/ctools/foldx/foldx -m mutation_list.txt -f suite5 -R repair_runfile_template.txt -M mutate_runfile_template.txt -c -L -l -v  &`
+  - `cd Q171E`
+  - `nohup mutatex ../Q171E_models/model_*.pdb -p 3 -x /home/ctools/foldx/foldx -m ../mutation_list.txt -f suite5 -R ../repair_runfile_template.txt -M ../mutate_runfile_template.txt -c -L -l -v  &`
 - R130G mutation
-  - `nohup mutatex R130G_models/model_*.pdb -p 3 -x /home/ctools/foldx/foldx -m mutation_list.txt -f suite5 -R repair_runfile_template.txt -M mutate_runfile_template.txt -c -L -l -v  &`
+  - `cd R130G`
+  - `nohup mutatex ../R130G_models/model_*.pdb -p 3 -x /home/ctools/foldx/foldx -m ../mutation_list.txt -f suite5 -R ../repair_runfile_template.txt -M ../mutate_runfile_template.txt -c -L -l -v  &`
 
 #### (Optional) check status of MutateX calculations
 - `tail -f nohup.out`
