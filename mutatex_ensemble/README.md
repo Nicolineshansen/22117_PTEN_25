@@ -13,11 +13,11 @@
 - `mkdir R130G_models`
 
 ### Get models from cabsflex
-- `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/wildtype/output_pdbs/output_pdbs/model_*.pdb ./wildtype_models`
-- `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/C124F/output_pdbs/output_pdbs/model_*.pdb ./C124F_models`
-- `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/F347Y/output_pdbs/output_pdbs/model_*.pdb ./F347Y_models`
-- `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/Q171E/output_pdbs/output_pdbs/model_*.pdb ./Q171E_models`
-- `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/R130G/output_pdbs/output_pdbs/model_*.pdb ./R130G_models`
+- `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/wildtype/output_pdbs/model_*.pdb ./wildtype_models`
+- `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/C124F/output_pdbs/model_*.pdb ./C124F_models`
+- `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/F347Y/output_pdbs/model_*.pdb ./F347Y_models`
+- `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/Q171E/output_pdbs/model_*.pdb ./Q171E_models`
+- `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/R130G/output_pdbs/model_*.pdb ./R130G_models`
 
 ### Get template files for mMtateX
 - `cp /home/projects/22117_proteins_2025/lecture4/mutatex_templates/mutatex/templates/foldxsuite5/mutation_list.txt .`
