@@ -10,7 +10,7 @@
 
 ### Create poslist file
 - `nano poslist.txt`
-  - **poslist file should contain:**
+  - **poslist file should contain:**\
     RA130\
     QA214\
     CA124\
