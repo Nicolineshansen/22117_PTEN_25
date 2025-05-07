@@ -1,6 +1,6 @@
-#README for MutateX ensemble
+# MutateX ensemble
 
-##Calculate effects of mutations on stability with MutateX
+## Calculate effects of mutations on stability with MutateX
 
 - go to working directory
 cd /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/mutatex_ensemble
@@ -28,7 +28,7 @@ cp /home/projects/22117_proteins_2025/lecture4/mutatex_templates/mutatex/templat
 conda deactivate
 conda activate /home/ctools/protein_structure_course/
 
-# Run MutateX - use nohub to run in the background
+### Run MutateX - use nohub to run in the background
 - wildtype
 nohup mutatex wildtype_models/model_*.pdb -p 3 -x /home/ctools/foldx/foldx -m mutation_list.txt -q poslist.txt -f suite5 -R repair_runfile_template.txt -M mutate_runfile_template.txt -c -L -l -v  &
 - C124F mutation
@@ -40,5 +40,5 @@ nohup mutatex Q171E_models/model_*.pdb -p 3 -x /home/ctools/foldx/foldx -m mutat
 - R130G mutation
 nohup mutatex R130G_models/model_*.pdb -p 3 -x /home/ctools/foldx/foldx -m mutation_list.txt -q poslist.txt -f suite5 -R repair_runfile_template.txt -M mutate_runfile_template.txt -c -L -l -v  &
 
-# (Optional) check status of MutateX calculations
+#### (Optional) check status of MutateX calculations
 tail -f nohup.out
