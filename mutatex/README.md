@@ -12,17 +12,17 @@ readme mutatex
 
 ### Create poslist file
 - `nano poslist.txt`\
-**poslist file should contain:**\
-RA130\
-QA214\
-CA124\
-VA275\
-QA171\
-MA198\
-SA59\
-FA347\
-TA78\
-FA278\
-RA173\
-VA255\
+  - **poslist file should contain:**\
+    RA130\
+    QA214\
+    CA124\
+    VA275\
+    QA171\
+    MA198\
+    SA59\
+    FA347\
+    TA78\
+    FA278\
+    RA173\
+    VA255\
 
