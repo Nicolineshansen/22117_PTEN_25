@@ -1,6 +1,6 @@
 # MutateX
 
-## MutateX 5BZZ
+## MutateX 5BZZ (crystal structure)
 
 ### Go to working directory
 - `cd /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/mutateX_stability_3`
