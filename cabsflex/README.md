@@ -3,7 +3,7 @@
 ## Generate ensemble models for flexibility
 
 ### Working directory
-cd /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex
+`cd /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex`
 
 ### Activate environment
 - `conda deactivate`
