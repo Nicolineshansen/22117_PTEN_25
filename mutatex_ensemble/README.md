@@ -1,3 +1,7 @@
+# MutateX self-scan
+
+- `nohup mutatex wildtype_models/model_0.pdb -p 4 -x /home/ctools/foldx/foldx -m mutation_list.txt -f suite5 -R repair_runfile_template.txt -M mutate_runfile_template.txt -c -L -l -v -s &`
+
 # MutateX ensemble
 
 ## Calculate effects of mutations on stability with MutateX
