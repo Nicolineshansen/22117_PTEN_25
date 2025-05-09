@@ -21,9 +21,6 @@
 - `cp /home/projects/22117_proteins_2025/lecture4/mutatex_templates/mutatex/templates/foldxsuite5/repair_runfile_template.txt .`
 - `cp /home/projects/22117_proteins_2025/lecture4/mutatex_templates/mutatex/templates/foldxsuite5/mutate_runfile_template.txt .`
 
-### Create output directories
-- `mkdir wildtype`
-
 ### Run MutateX  - use nohub to run in the background
 MutateX is run without a poslist, as we want to scan the whole protein
 - `nohup mutatex wildtype_models/model_*.pdb -p 4 -x /home/ctools/foldx/foldx -m mutation_list.txt -f suite5 -R repair_runfile_template.txt -M mutate_runfile_template.txt -c -L -l -v -s &`
@@ -53,7 +50,7 @@ MutateX is run without a poslist, as we want to scan the whole protein
 - `cp /home/projects/22117_proteins_2025/lecture4/mutatex_templates/mutatex/templates/foldxsuite5/repair_runfile_template.txt .`
 - `cp /home/projects/22117_proteins_2025/lecture4/mutatex_templates/mutatex/templates/foldxsuite5/mutate_runfile_template.txt .`
 
-### Create output directories
+### Create output directory
 - `mkdir wildtype`
 
 ### Create poslist file
