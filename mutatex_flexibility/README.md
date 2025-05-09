@@ -30,7 +30,7 @@ MutateX is run without a poslist, as we want to scan the whole protein
 
 # MutateX ensemble
 
-## Calculate effects of mutations on stability with MutateX
+## Calculate effects of mutations on stability
 
 ### Go to working directory
 - `cd /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/mutatex_ensemble`
