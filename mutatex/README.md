@@ -12,17 +12,17 @@
 
 ### Create poslist file
 - `cat > poslist_2.txt
-RA130
-QA214
-CA124
-VA275
-QA171
-MA198
-SA59
-FA347
-TA78
-FA278
-RA173
+RA130\
+QA214\
+CA124\
+VA275\
+QA171\
+MA198\
+SA59\
+FA347\
+TA78\
+FA278\
+RA173\
 VA255`
 
 
