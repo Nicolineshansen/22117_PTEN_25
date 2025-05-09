@@ -37,7 +37,7 @@
 - `tail -f nohup.out`
 
 
-## MutateX AF structure
+## MutateX AlphaFold structure
 
 ### Go to working directory
 - `cd /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/mutatex_stability_af`
