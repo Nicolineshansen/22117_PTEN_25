@@ -1,5 +1,13 @@
 # MutateX self-scan
 
+
+
+### Go to working directory
+- `cd /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/mutatex_selfscan`
+
+- 
+
+
 - `nohup mutatex wildtype_models/model_0.pdb -p 4 -x /home/ctools/foldx/foldx -m mutation_list.txt -f suite5 -R repair_runfile_template.txt -M mutate_runfile_template.txt -c -L -l -v -s &`
 
 # MutateX ensemble
@@ -9,19 +17,11 @@
 ### Go to working directory
 - `cd /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/mutatex_ensemble`
 
-### Create input file directories
+### Create input file directory
 - `mkdir wildtype_models`
-- `mkdir C124F_models`
-- `mkdir F347Y_models`
-- `mkdir Q171E_models`
-- `mkdir R130G_models`
 
 ### Get models from cabsflex
 - `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/wildtype/output_pdbs/model_*.pdb ./wildtype_models`
-- `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/C124F/output_pdbs/model_*.pdb ./C124F_models`
-- `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/F347Y/output_pdbs/model_*.pdb ./F347Y_models`
-- `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/Q171E/output_pdbs/model_*.pdb ./Q171E_models`
-- `cp /home/projects/22117_proteins_2025/projects/Group3_project/PTEN/cabsflex/R130G/output_pdbs/model_*.pdb ./R130G_models`
 
 ### Get template files for MutateX
 - `cp /home/projects/22117_proteins_2025/lecture4/mutatex_templates/mutatex/templates/foldxsuite5/mutation_list.txt .`
@@ -35,13 +35,12 @@
 
 ### Create output directories
 - `mkdir wildtype`
-- `mkdir C124F`
-- `mkdir F347Y`
-- `mkdir Q171E`
-- `mkdir R130G`
+
+### Create poslist file
+cat 
 
 ### Run MutateX  - use nohub to run in the background
-Run without a poslist, as we want to scan the entire protein
+
 
 - wildtype
   - `cd wildtype`
