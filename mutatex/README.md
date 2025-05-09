@@ -11,7 +11,7 @@
 - `cp /home/projects/22117_proteins_2025/lecture4/mutatex_templates/mutatex/templates/foldxsuite5/mutate_runfile_template.txt .`
 
 ### Create poslist file
-- `cat > poslist_2.txt`
+- `cat > poslist_2.txt`\
   RA130\
   QA214\
   CA124\
