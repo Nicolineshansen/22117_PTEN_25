@@ -30,6 +30,9 @@
 - `conda deactivate`
 - `conda activate /home/ctools/protein_structure_course/`
 
+### Run NACCESS
+- `naccess 5BZZ_noHETATM_chainA.pdb`
+
 ### Run MutateX - use nohub to run in the background
 - `nohup mutatex 5BZZ_noHETATM_chainA.pdb -p 4 -x /home/ctools/foldx/foldx -m mutation_list.txt -q poslist.txt -f suite5 -R repair_runfile_template.txt -M mutate_runfile_template.txt -c -L -l -v  &`
 
@@ -68,6 +71,9 @@
 ### Activate environment
 - `conda deactivate`
 - `conda activate /home/ctools/protein_structure_course/`
+
+### Run NACCESS
+- `naccess AF_truncated.pdb`
 
 ### Run MutateX - use nohub to run in the background
 - `nohup mutatex AF_truncated.pdb -p 4 -x /home/ctools/foldx/foldx -m mutation_list.txt -q poslist.txt -f suite5 -R repair_runfile_template.txt -M mutate_runfile_template.txt -c -L -l -v  &`
