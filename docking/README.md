@@ -20,4 +20,5 @@ And these settings for the 'Search box size': 9, 11, 11 Å
 
 #### Sample exhaustivity
 Set the sample exhaustivity to 1
+
 Start the docking
