@@ -2,7 +2,7 @@
 ## Docking of PTEN mutations and PIP3
 
 ### Preparation of ligand file
-Download .sdf file from this link: https://pubchem.ncbi.nlm.nih.gov/compound/11029524
+Download .sdf file from this link: https://pubchem.ncbi.nlm.nih.gov/compound/11029524 \n
 Export the structure to .mol2 format
 
 ### Preparation of mutated PTEN structures
