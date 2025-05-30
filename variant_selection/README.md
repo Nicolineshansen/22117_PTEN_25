@@ -11,7 +11,7 @@
 ### Choose variants which are benchmarked with experimental data from cBioPortal, ClinVar or Cosmic, identified with CancerMuts and further examined in the online webserver of each databse.
 ### Cancermuts website
 [Cancermuts website]{https://services.healthtech.dtu.dk/cancermuts/Cancermuts_database}
-#### Choose "Add filter", then "GENE" and then write "PTEN". Download the dataset.
+#### Choose "Add filter", then "GENE" and then write "PTEN". Download the dataset and look in the column "source" to identify the database containing external data on each variation of interest. 
 
 ### cBioPortal website
 {https://www.cbioportal.org/}
