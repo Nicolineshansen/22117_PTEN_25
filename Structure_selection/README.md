@@ -16,5 +16,3 @@
 #### "nohup" is used to run PDBminer in the background. The uniprot accession code of human PTEN is P60484, which is used in the command.
 - `cd structure_selection`
 - `nohup PDBminer -u P60484 -n 2 -f csv &`
-
-### Copy the csv file to your computer 
