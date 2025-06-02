@@ -77,3 +77,7 @@ MutateX is run without a poslist, as we want to scan the whole protein
 
 #### (Optional) check status of MutateX calculations
 - `tail -f nohup.out`
+
+### Run `ddg2heatmap`to visualize substitutions
+- `ddg2heatmap -p wildtype_models/model_0.pdb -d wildtype_mut4/results/mutation_ddgs/final_averages/ -l mutation_list.txt -q poslist.txt`
+  - Output is saved as `0_heatmap.pdf`
